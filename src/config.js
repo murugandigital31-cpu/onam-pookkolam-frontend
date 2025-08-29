@@ -6,9 +6,9 @@ const config = {
   },
   // Production environment (live server)
   production: {
-    apiBaseUrl: '/api', // Same-origin relative path when hosted together
-    // If hosting on separate servers, use the full URL:
-    // apiBaseUrl: 'https://your-backend-domain.com/api',
+    // For separate deployments, use the full URL to the backend
+    apiBaseUrl: 'https://your-backend-domain.com/api',
+    // When deploying, update this to the actual backend URL
   }
 };
 
